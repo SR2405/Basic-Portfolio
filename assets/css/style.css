@@ -172,5 +172,11 @@ img{
 }
 
 
+    a:link {
+        text-decoration: none;
     
- 
+    }
+
+    a{
+        color: #a8a7a7;
+    }
