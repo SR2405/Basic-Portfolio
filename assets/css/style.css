@@ -87,6 +87,7 @@ li{float: right;
     border-bottom-color: rgb(235, 194, 243);
     border-bottom-width: 2px;
     border-bottom-style: solid; 
+    z-index: 1;
 
 
 }
@@ -185,11 +186,18 @@ input[type=text]{
         width: 156px;
         height: 156px;
 
-
         
     }
 
     .image{
         position: relative;
-        margin-bottom: 20px;
-    }
+        margin: 20px;
+        border-width: 2px;
+        border-style: solid; 
+        border-color:rgb(235, 194, 243);
+        width: 156px;
+        height: 156px;
+        z-index: 0;
+        float: left;   
+
+     }
