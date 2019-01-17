@@ -95,7 +95,7 @@ li{float: right;
         margin-top: 100px;
         background-color: #fff;
         width: 960px;
-        height: 400px;
+        height: 800px;
         padding:20px;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         color: #777777;
@@ -126,7 +126,7 @@ input[type=text]{
     }
 
         
-img{
+#me{
     width: 120.5;
     height: 122.5;
     float: left;
@@ -158,13 +158,13 @@ img{
 
 .interests{
     color:#fff;
-    position: relative;
+    position: absolute;
     background-color: #4aaaa5; 
     width: 120px;
     height: 8px;
     padding: 18px 18px 22px 18px; 
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 0px;
     top: 0;
     font-size: 20;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -179,4 +179,17 @@ img{
 
     a{
         color: #a8a7a7;
+    }
+
+    .portfolio{
+        width: 156px;
+        height: 156px;
+
+
+        
+    }
+
+    .image{
+        position: relative;
+        margin-bottom: 20px;
     }
